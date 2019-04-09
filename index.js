@@ -1,8 +1,12 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+const cors = require('cors');
+
 const allProjects = require('./portfolio-projects.json');
 
 const app = express();
+app.use(bodyParser.json());
+app.use(cors());
 
 app.get('/api/projects', (req, res) => res.json(allProjects));
 
