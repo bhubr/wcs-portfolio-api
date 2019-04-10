@@ -32,7 +32,7 @@ app.post('/api/projects', (req, res) => {
   try {
     const errors = [];
     const required = ['title', 'link', 'repo', 'picture', 'promo', 'type'];
-    const optional = ['description'];
+    const optional = ['description', 'techno'];
     const all = [...required, ...optional];
     if (!req.body || typeof req.body !== 'object') {
       errors.push('request body is empty or not an object');
