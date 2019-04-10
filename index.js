@@ -53,7 +53,8 @@ app.post('/api/projects', (req, res) => {
     remove: /[*+~.()'"!:@]/g,
     lower: true
   });
-  const newProject = { ...req.body, id: nextProjectId, slug };
+  const date = new Date().toISOString();
+  const newProject = { ...req.body, id: nextProjectId, slug, date };
   nextProjectId += 1;
   allProjects.push(newProject);
   fs.writeFile('portfolio-projects-db.json', JSON.stringify(allProjects, null, 2), (err) => {
