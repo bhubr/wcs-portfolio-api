@@ -38,7 +38,7 @@ app.post('/api/projects', (req, res) => {
       errors.push('request body is empty or not an object');
     } else {
       all.forEach(k => {
-        if (!req.body[k] && required.includes(k)) {
+        if (!(k in req.body) && required.includes(k)) {
           errors.push(`key '${k}' is required`);
         }
       });
