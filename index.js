@@ -30,7 +30,6 @@ app.get('/api/projects/:idOrSlug', (req, res) => {
 
 app.post('/api/projects', (req, res) => {
   try {
-
     const errors = [];
     const required = ['title', 'link', 'repo', 'picture', 'promo', 'type'];
     const optional = ['description'];
@@ -50,6 +49,7 @@ app.post('/api/projects', (req, res) => {
       });
     }
     if (errors.length) {
+      console.error(errors);
       return res.status(400).json({ errors });
     }
     const slug = slugify(req.body.title, {
@@ -66,6 +66,7 @@ app.post('/api/projects', (req, res) => {
       return res.json(newProject);
     });
   } catch(e) {
+    console.error(e);
     return res.status(500).json({ errors: [e.message] });
   }
 });
