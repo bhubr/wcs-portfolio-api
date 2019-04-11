@@ -28,6 +28,19 @@ app.get('/api/projects/:idOrSlug', (req, res) => {
   return res.json(project);
 });
 
+app.delete('/api/projects/:id', (req, res) => {
+  const id = Number(req.params.id);
+  const projectIdx = allProjects.findIndex(p => p.id === id);
+  if (projectIdx === -1) {
+    return res.status(404).json({ error: 'Project not found' });
+  }
+  allProjects.splice(projectIdx, 1);
+  fs.writeFile('portfolio-projects-db.json', JSON.stringify(allProjects, null, 2), (err) => {
+    if (err) return res.status(500).json({ errors: [err.message] });
+    return res.sendStatus(204);
+  });
+});
+
 app.post('/api/projects', (req, res) => {
   try {
     const errors = [];
