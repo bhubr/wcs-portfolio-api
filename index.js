@@ -63,12 +63,12 @@ const getWilders = async wilders => {
       return axios.get(`https://api.github.com/users/${login}`)
         .then(res => res.data)
         .then(({ id, login, avatar_url: avatar }) => [
-          ...carry, { id, login, avatar, isNew: true }
+          ...carry, { id, login, avatar }
         ]);
     },
     []
   );
-  const newWilders = wilderObjects.filter(w => w.isNew);
+  const newWilders = wilderObjects.filter(w => !allUsers.find(u => u.login === w.login));
   allUsers.push(...newWilders);
   fs.writeFile('portfolio-wilders.json', JSON.stringify(allUsers, null, 2), (err) => {
     if (err) {
