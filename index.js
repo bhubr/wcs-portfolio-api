@@ -23,6 +23,8 @@ const formatProj = p => ({ ...p, wilders: p.wilders || [] });
 
 app.get('/api/projects', (req, res) => res.json(allProjects.map(formatProj)));
 
+app.get('/api/wilders', (req, res) => res.json(allUsers));
+
 app.get('/api/projects/:idOrSlug', (req, res) => {
   const project = allProjects.find(
     p => p.id === Number(req.params.idOrSlug) || p.slug === req.params.idOrSlug

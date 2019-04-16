@@ -13,3 +13,28 @@ Par son id:
 Par son "slug":
 
     https://portfolio-api.wild31.com/api/projects/dead-candy
+
+## Créer un wilder
+
+Requête en POST vers https://portfolio-api.wild31.com/api/projects
+
+Champs requis:
+
+* title
+* repo
+* link
+* picture
+* promo
+* type
+
+Champs optionnels:
+
+* description
+* wilders
+  * en string, ex: "defunkt,mojombo"
+  * en tableau, ex: ["defunkt", "mojombo"]
+* techno
+
+## Récupérer la liste des wilders
+
+    https://portfolio-api.wild31.com/api/wilders
