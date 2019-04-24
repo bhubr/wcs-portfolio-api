@@ -38,3 +38,12 @@ Champs optionnels:
 ## Récupérer la liste des wilders
 
     https://portfolio-api.wild31.com/api/wilders
+
+## S'authentifier
+
+Requête en POST vers https://portfolio-api.wild31.com/api/login
+
+Champs requis:
+
+* email
+* password
