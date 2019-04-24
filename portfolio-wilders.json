@@ -1,17 +1,50 @@
 [
   {
+    "login": "EvaSpessotto",
+    "id": 39422372,
+    "promo": "0918-js",
+    "avatar": "https://avatars1.githubusercontent.com/u/39422372?v=4"
+  },
+  {
+    "id": 42821045,
+    "login": "AdamsChristopher",
+    "promo": "0918-js",
+    "avatar": "https://avatars0.githubusercontent.com/u/42821045?v=4"
+  },
+  {
+    "id": 39262583,
+    "login": "bbelorgey",
+    "promo": "0918-js",
+    "avatar": "https://avatars1.githubusercontent.com/u/39262583?v=4"
+  },
+  {
+    "id": 39680489,
+    "login": "alphabet2061",
+    "promo": "0918-js",
+    "avatar": "https://avatars1.githubusercontent.com/u/39680489?v=4"
+  },
+  {
+    "id": 42917262,
+    "login": "alfrofro",
+    "promo": "0918-js",
+    "avatar": "https://avatars2.githubusercontent.com/u/42917262?v=4"
+  },
+  {
     "id": 47557080,
     "login": "AgatC",
+    "promo": "0219-js",
     "avatar": "https://avatars3.githubusercontent.com/u/47557080?v=4"
   },
   {
     "id": 47756368,
     "login": "Astilas",
+    "promo": "0219-js",
     "avatar": "https://avatars0.githubusercontent.com/u/47756368?v=4"
   },
   {
     "id": 47146255,
     "login": "Blue-22",
+    "promo": "0219-js",
     "avatar": "https://avatars3.githubusercontent.com/u/47146255?v=4"
   }
 ]
