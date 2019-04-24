@@ -130,5 +130,34 @@
     "picture": "https://wild31.com/wp-content/uploads/2018/09/thumb-photomania.png",
     "promo": "0918-js",
     "type": "project1"
+  },
+  {
+    "title": "Portfolio des anciens projets",
+    "type": "project2",
+    "promo": "0219-js",
+    "description": "Site référençant les différents projets réalisés par les wilders des différentes promotions de la Wild Toulouse",
+    "picture": "https://i.postimg.cc/Y0DFnyBc/Screenshot-from-2019-04-11-14-16-44.png",
+    "repo": "https://github.com/WildCodeSchool/toulouse-0219-js-portfolio",
+    "link": "",
+    "id": 58,
+    "slug": "portfolio-des-anciens-projets",
+    "date": "2019-04-17T07:05:34.646Z",
+    "wilders": [
+      {
+        "id": 47557080,
+        "login": "AgatC",
+        "avatar": "https://avatars3.githubusercontent.com/u/47557080?v=4"
+      },
+      {
+        "id": 47756368,
+        "login": "Astilas",
+        "avatar": "https://avatars0.githubusercontent.com/u/47756368?v=4"
+      },
+      {
+        "id": 47146255,
+        "login": "Blue-22",
+        "avatar": "https://avatars3.githubusercontent.com/u/47146255?v=4"
+      }
+    ]
   }
 ]
