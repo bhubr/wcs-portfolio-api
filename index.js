@@ -6,10 +6,16 @@ const morgan = require('morgan');
 const slugify = require('slugify');
 const fs = require('fs');
 const axios = require('axios');
+const bcrypt = require('bcrypt');
+const jwt = require('jsonwebtoken');
 const defaultProjects = require('./portfolio-projects-db.json');
 const allUsers = require('./portfolio-wilders.json');
+const admins = require('./admins.json');
+const secret = require('./config').secret;
 
 const allProjects = [...defaultProjects];
+
+const signAsync = Promise.promisify(jwt.sign.bind(jwt));
 
 const app = express();
 app.use(bodyParser.json());
@@ -79,6 +85,31 @@ const getWilders = async wilders => {
   });
   return wilderObjects.map(w => { delete w.isNew; return w; });
 };
+
+app.post('/api/login', async (req, res) => {
+  const { email, password } = req.body;
+  if (!email || !password) {
+    return res.status(400).json({
+      error: '"email" and "password" fields are required'
+    });
+  }
+  const admin = admins.find(item => item.email === email);
+  if (!admin) {
+    return res.status(401).json({
+      error: 'Wrong email or password'
+    });
+  }
+  bcrypt.compare(password, admin.password).then(match => {
+    if (!match) {
+      return res.status(401).json({
+        error: 'Wrong email or password'
+      });
+    }
+    signAsync({ email }, secret)
+      .then(token => res.json({ token }))
+      .catch(err => res.status(500).json({ error: err.message }))
+  });
+});
 
 app.post('/api/projects', async (req, res) => {
   try {
