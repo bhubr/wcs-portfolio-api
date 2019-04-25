@@ -9,7 +9,27 @@
     "repo": "https://github.com/Julien-sans/bonbondexHackaton",
     "picture": "https://wild31.com/wp-content/uploads/2018/11/dead-candy.png",
     "promo": "0918-js",
-    "type": "hackathon"
+    "type": "hackathon",
+    "wilders": [
+      {
+        "id": 42937081,
+        "login": "Julien-sans",
+        "promo": "0918-js",
+        "avatar": "https://avatars1.githubusercontent.com/u/42937081?v=4"
+      },
+      {
+        "login": "EvaSpessotto",
+        "id": 39422372,
+        "promo": "0918-js",
+        "avatar": "https://avatars1.githubusercontent.com/u/39422372?v=4"
+      },
+      {
+        "id": 42821045,
+        "login": "AdamsChristopher",
+        "promo": "0918-js",
+        "avatar": "https://avatars0.githubusercontent.com/u/42821045?v=4"
+      }
+    ]
   },
   {
     "id": 49,
@@ -21,7 +41,27 @@
     "repo": "https://github.com/Froyj/candy-robbers",
     "picture": "https://wild31.com/wp-content/uploads/2018/11/candy-robbers.png",
     "promo": "0918-js",
-    "type": "hackathon"
+    "type": "hackathon",
+    "wilders": [
+      {
+        "id": 39995988,
+        "login": "ClaireToulouse",
+        "promo": "0918-js",
+        "avatar": "https://avatars3.githubusercontent.com/u/39995988?v=4"
+      },
+      {
+        "id": 42406878,
+        "login": "Tchouptchoup",
+        "promo": "0918-js",
+        "avatar": "https://avatars1.githubusercontent.com/u/42406878?v=4"
+        },
+      {
+        "id": 15174226,
+        "login": "Froyj",
+        "promo": "0918-js",
+        "avatar": "https://avatars2.githubusercontent.com/u/15174226?v=4"
+      }
+    ]
   },
   {
     "id": 47,
@@ -33,7 +73,21 @@
     "repo": "https://github.com/JulesGrenier/candydex",
     "picture": "https://wild31.com/wp-content/uploads/2018/11/sweedex.png",
     "promo": "0918-js",
-    "type": "hackathon"
+    "type": "hackathon",
+    "wilders": [
+      {
+        "id": 42283709,
+        "login": "NelsonHui123",
+        "promo": "0918-js",
+        "avatar": "https://avatars3.githubusercontent.com/u/42283709?v=4"
+      },
+      {
+        "id": 34350330,
+        "login": "JulesGrenier",
+        "promo": "0918-js",
+        "avatar": "https://avatars1.githubusercontent.com/u/34350330?v=4"
+      }
+    ]
   },
   {
     "id": 36,
@@ -77,7 +131,27 @@
     "repo": "https://github.com/WildCodeSchool/toulouse-0918-js-mymovies",
     "picture": "https://wild31.com/wp-content/uploads/2018/10/Capture-MyMoovs.jpg",
     "promo": "0918-js",
-    "type": "project2"
+    "type": "project2",
+    "wilders": [
+      {
+        "id": 39680489,
+        "login": "alphabet2061",
+        "promo": "0918-js",
+        "avatar": "https://avatars1.githubusercontent.com/u/39680489?v=4"
+      },
+      {
+        "id": 42917262,
+        "login": "alfrofro",
+        "promo": "0918-js",
+        "avatar": "https://avatars2.githubusercontent.com/u/42917262?v=4"
+      },
+      {
+        "id": 42406878,
+        "login": "Tchouptchoup",
+        "promo": "0918-js",
+        "avatar": "https://avatars1.githubusercontent.com/u/42406878?v=4"
+      }
+    ]
   },
   {
     "id": 32,
@@ -89,7 +163,33 @@
     "repo": "https://github.com/WildCodeSchool/toulouse-0918-js-easybike",
     "picture": "https://wild31.com/wp-content/uploads/2018/10/Capture-Easybike.jpg",
     "promo": "0918-js",
-    "type": "project2"
+    "type": "project2",
+    "wilders": [
+      {
+        "id": 42821045,
+        "login": "AdamsChristopher",
+        "promo": "0918-js",
+        "avatar": "https://avatars0.githubusercontent.com/u/42821045?v=4"
+      },
+      {
+        "id": 39995988,
+        "login": "ClaireToulouse",
+        "promo": "0918-js",
+        "avatar": "https://avatars3.githubusercontent.com/u/39995988?v=4"
+      },
+      {
+        "id": 15174226,
+        "login": "Froyj",
+        "promo": "0918-js",
+        "avatar": "https://avatars2.githubusercontent.com/u/15174226?v=4"
+      },
+      {
+        "id": 39262583,
+        "login": "bbelorgey",
+        "promo": "0918-js",
+        "avatar": "https://avatars1.githubusercontent.com/u/39262583?v=4"
+      }
+    ]
   },
   {
     "id": 28,
@@ -101,7 +201,33 @@
     "repo": "https://github.com/WildCodeSchool/toulouse-0918-js-wildhub",
     "picture": "https://wild31.com/wp-content/uploads/2018/10/Capture-d’écran-2018-10-29-à-10.43.00.png",
     "promo": "0918-js",
-    "type": "project2"
+    "type": "project2",
+    "wilders": [
+      {
+        "id": 42283709,
+        "login": "NelsonHui123",
+        "promo": "0918-js",
+        "avatar": "https://avatars3.githubusercontent.com/u/42283709?v=4"
+      },
+      {
+        "id": 34350330,
+        "login": "JulesGrenier",
+        "promo": "0918-js",
+        "avatar": "https://avatars1.githubusercontent.com/u/34350330?v=4"
+      },
+      {
+        "id": 42937081,
+        "login": "Julien-sans",
+        "promo": "0918-js",
+        "avatar": "https://avatars1.githubusercontent.com/u/42937081?v=4"
+      },
+      {
+        "login": "EvaSpessotto",
+        "id": 39422372,
+        "promo": "0918-js",
+        "avatar": "https://avatars1.githubusercontent.com/u/39422372?v=4"
+      }
+    ]
   },
   {
     "id": 23,
@@ -113,7 +239,27 @@
     "repo": "https://github.com/Froyj/wild-review",
     "picture": "https://wild31.com/wp-content/uploads/2018/10/wild-code-school-toulouse-wild-review.png",
     "promo": "0918-js",
-    "type": "project1"
+    "type": "project1",
+    "wilders": [
+      {
+        "id": 42406878,
+        "login": "Tchouptchoup",
+        "promo": "0918-js",
+        "avatar": "https://avatars1.githubusercontent.com/u/42406878?v=4"
+      },
+      {
+        "id": 15174226,
+        "login": "Froyj",
+        "promo": "0918-js",
+        "avatar": "https://avatars2.githubusercontent.com/u/15174226?v=4"
+      },
+      {
+        "id": 42283709,
+        "login": "NelsonHui123",
+        "promo": "0918-js",
+        "avatar": "https://avatars3.githubusercontent.com/u/42283709?v=4"
+      }
+    ]
   },
   {
     "id": 21,
@@ -125,7 +271,27 @@
     "repo": "https://github.com/AdamsChristopher/Project01",
     "picture": "https://wild31.com/wp-content/uploads/2018/10/wild-code-school-toulouse-turbo-muscles.png",
     "promo": "0918-js",
-    "type": "project1"
+    "type": "project1",
+    "wilders": [
+      {
+        "id": 42937081,
+        "login": "Julien-sans",
+        "promo": "0918-js",
+        "avatar": "https://avatars1.githubusercontent.com/u/42937081?v=4"
+      },
+      {
+        "id": 42821045,
+        "login": "AdamsChristopher",
+        "promo": "0918-js",
+        "avatar": "https://avatars0.githubusercontent.com/u/42821045?v=4"
+      },
+      {
+        "id": 42917262,
+        "login": "alfrofro",
+        "promo": "0918-js",
+        "avatar": "https://avatars2.githubusercontent.com/u/42917262?v=4"
+      }
+    ]
   },
   {
     "id": 20,
@@ -137,7 +303,27 @@
     "repo": "https://github.com/alphabet2061/projet1",
     "picture": "https://wild31.com/wp-content/uploads/2018/10/wild-code-school-toulouse-music-blog.png",
     "promo": "0918-js",
-    "type": "project1"
+    "type": "project1",
+    "wilders": [
+      {
+        "id": 39262583,
+        "login": "bbelorgey",
+        "promo": "0918-js",
+        "avatar": "https://avatars1.githubusercontent.com/u/39262583?v=4"
+      },
+      {
+        "id": 39680489,
+        "login": "alphabet2061",
+        "promo": "0918-js",
+        "avatar": "https://avatars1.githubusercontent.com/u/39680489?v=4"
+      },
+      {
+        "id": 34350330,
+        "login": "JulesGrenier",
+        "promo": "0918-js",
+        "avatar": "https://avatars1.githubusercontent.com/u/34350330?v=4"
+      }
+    ]
   },
   {
     "id": 12,
@@ -149,7 +335,21 @@
     "repo": "https://github.com/zuluone1/Photomania-project",
     "picture": "https://wild31.com/wp-content/uploads/2018/09/thumb-photomania.png",
     "promo": "0918-js",
-    "type": "project1"
+    "type": "project1",
+    "wilders": [
+      {
+        "login": "EvaSpessotto",
+        "id": 39422372,
+        "promo": "0918-js",
+        "avatar": "https://avatars1.githubusercontent.com/u/39422372?v=4"
+      },
+      {
+        "id": 39995988,
+        "login": "ClaireToulouse",
+        "promo": "0918-js",
+        "avatar": "https://avatars3.githubusercontent.com/u/39995988?v=4"
+      }
+    ]
   },
   {
     "title": "Portfolio des anciens projets",
