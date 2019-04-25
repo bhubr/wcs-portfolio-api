@@ -39,6 +39,36 @@ Champs optionnels:
 
     https://portfolio-api.wild31.com/api/wilders
 
+Format des données renvoyées :
+
+```json
+[
+  {
+    "id": 123456,
+    "login": "SomeLogin",
+    "promo": "0219-js",
+    "avatar": "https://github.com/path/to/avatar.jpg"
+  }
+]
+```
+
+## Récupérer la liste des promos
+
+    https://portfolio-api.wild31.com/api/promos
+
+```json
+[
+  {
+    "key": "0918-js",
+    "value": "Septembre 2018"
+  },
+  {
+    "key": "0219-js",
+    "value": "Février 2019"
+  }
+]
+```
+
 ## S'authentifier
 
 Requête en POST vers https://portfolio-api.wild31.com/api/login

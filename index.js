@@ -8,6 +8,7 @@ const fs = require('fs');
 const axios = require('axios');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
+const formatPromo = require('./helpers/formatPromo');
 const defaultProjects = require('./portfolio-projects-db.json');
 const allUsers = require('./portfolio-wilders.json');
 const admins = require('./admins.json');
@@ -25,7 +26,7 @@ app.use(morgan('dev'));
 const projectIds = allProjects.map(p => p.id);
 let nextProjectId = Math.max(...projectIds) + 1;
 
-const formatProj = p => ({ ...p, wilders: p.wilders || [] });
+const formatProj = p => ({ ...p, wilders: p.wilders || [] });
 
 app.get('/api/projects', (req, res) => res.json(allProjects.map(formatProj)));
 
@@ -109,6 +110,13 @@ app.post('/api/login', async (req, res) => {
       .then(token => res.json({ token }))
       .catch(err => res.status(500).json({ error: err.message }))
   });
+});
+
+app.get('/api/promos', (req, res) => {
+  const promos = allUsers.map(user => user.promo)
+    .filter((promo, idx, promos) => promos.indexOf(promo) === idx)
+    .map(formatPromo);
+  return res.json(promos);
 });
 
 app.post('/api/projects', async (req, res) => {
