@@ -54,7 +54,7 @@ app.delete('/api/projects/:id', (req, res) => {
   });
 });
 
-const getWilders = async wilders => {
+const getWilders = async (wilders, promo) => {
   if (!wilders) {
     return [];
   }
@@ -71,7 +71,7 @@ const getWilders = async wilders => {
       return axios.get(`https://api.github.com/users/${login}`)
         .then(res => res.data)
         .then(({ id, login, avatar_url: avatar }) => [
-          ...carry, { id, login, avatar }
+          ...carry, { id, login, promo, avatar }
         ]);
     },
     []
@@ -135,7 +135,7 @@ app.post('/api/projects', async (req, res) => {
       console.error(errors);
       return res.status(400).json({ errors });
     }
-    const wilders = await getWilders(req.body.wilders);
+    const wilders = await getWilders(req.body.wilders, req.body.promo);
     delete req.body.wilders;
 
     const slug = slugify(req.body.title, {
