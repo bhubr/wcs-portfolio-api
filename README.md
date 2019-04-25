@@ -56,6 +56,8 @@ Format des données renvoyées :
 
     https://portfolio-api.wild31.com/api/promos
 
+Format des données renvoyées :
+
 ```json
 [
   {
