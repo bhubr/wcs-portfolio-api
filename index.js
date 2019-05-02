@@ -9,6 +9,7 @@ const axios = require('axios');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 const formatPromo = require('./helpers/formatPromo');
+const sortPromos = require('./helpers/sortPromos');
 const defaultProjects = require('./portfolio-projects-db.json');
 const allUsers = require('./portfolio-wilders.json');
 const admins = require('./admins.json');
@@ -116,6 +117,7 @@ app.get('/api/promos', (req, res) => {
   const promos = allUsers.map(user => user.promo)
     .filter((promo, idx, promos) => promos.indexOf(promo) === idx)
     .map(formatPromo);
+  promos.sort(sortPromos)
   return res.json(promos);
 });
 
