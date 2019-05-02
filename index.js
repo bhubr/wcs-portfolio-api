@@ -80,6 +80,7 @@ const getWilders = async (wilders, promo) => {
   );
   const newWilders = wilderObjects.filter(w => !allUsers.find(u => u.login === w.login));
   allUsers.push(...newWilders);
+  allUsers.sort(sortPromos('promo'));
   fs.writeFile('portfolio-wilders.json', JSON.stringify(allUsers, null, 2), (err) => {
     if (err) {
       console.log('could not write new wilders', err);
@@ -117,7 +118,7 @@ app.get('/api/promos', (req, res) => {
   const promos = allUsers.map(user => user.promo)
     .filter((promo, idx, promos) => promos.indexOf(promo) === idx)
     .map(formatPromo);
-  promos.sort(sortPromos)
+  promos.sort(sortPromos('key'));
   return res.json(promos);
 });
 
