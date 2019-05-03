@@ -158,6 +158,7 @@ app.post('/api/projects', async (req, res) => {
     const newProject = { ...req.body, id: nextProjectId, slug, date, wilders };
     nextProjectId += 1;
     allProjects.push(newProject);
+    allProjects.sort(sortPromos('promo', true));
 
     fs.writeFile('portfolio-projects-db.json', JSON.stringify(allProjects, null, 2), (err) => {
       if (err) return res.status(500).json({ errors: [err.message] });
