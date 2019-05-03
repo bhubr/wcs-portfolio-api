@@ -458,7 +458,7 @@
     "type": "project2",
     "promo": "0219-js",
     "description": "Site portfolio de la Wild Toulouse référençant les différents projets des élèves des différentes sessions",
-    "picture": "https://i.postimg.cc/Y0DFnyBc/Screenshot-from-2019-04-11-14-16-44.png",
+    "picture": "https://wild31.com/img/portfolio.png",
     "repo": "https://github.com/WildCodeSchool/toulouse-0219-js-portfolio",
     "link": "",
     "id": 75,
@@ -482,6 +482,102 @@
         "login": "Blue-22",
         "promo": "0219-js",
         "avatar": "https://avatars3.githubusercontent.com/u/47146255?v=4"
+      }
+    ]
+  },
+  {
+    "title": "MovieScreen",
+    "type": "project2",
+    "promo": "0219-js",
+    "description": "Basée sur l'API TheMovieDB (https://themoviedb.org/) MovieScreen est une application d'actualités cinéma, présentant les dernières sorties, les films populaires, les films à venir.\n\nOn peut accéder à la fiche détaillée d'un film (synopsis, cast, avis), l'ajouter à ses favoris ou à sa liste de films à voir, et laisser un commentaire.\n\nEnfin, pour répondre à la question \"Que regarder ce soir ?\", MovieScreen offre la possibilité d'obtenir un film pris au hasard dans la large bibliothèque proposée par TheMovieDB.",
+    "picture": "https://wild31.com/img/moviescreen.png",
+    "repo": "https://github.com/WildCodeSchool/toulouse-0219-js-moviescreen",
+    "link": "",
+    "id": 76,
+    "slug": "moviescreen",
+    "date": "2019-05-03T13:23:12.483Z",
+    "wilders": [
+      {
+        "id": 25813423,
+        "login": "martafumagalli",
+        "promo": "0219-js",
+        "avatar": "https://avatars1.githubusercontent.com/u/25813423?v=4"
+      },
+      {
+        "id": 47523718,
+        "login": "anis31410",
+        "promo": "0219-js",
+        "avatar": "https://avatars3.githubusercontent.com/u/47523718?v=4"
+      },
+      {
+        "id": 47717826,
+        "login": "Arnaudboubou",
+        "promo": "0219-js",
+        "avatar": "https://avatars3.githubusercontent.com/u/47717826?v=4"
+      }
+    ]
+  },
+  {
+    "title": "Spacewalk",
+    "type": "project2",
+    "promo": "0219-js",
+    "description": "Spacewalk vous invite à une balade dans l'espace, dans notre système solaire et au-delà.\n\nUtilisant entre autres des API fournies par la NASA et l'ESA, l'application donne accès à des actualités liées à l'exploration spatiale, ainsi qu'à des archives très fournies retraçant celle-ci.\n\nOn peut également y suivre les trajectoires des satellites, dont la Station Spatiale Internationale (ISS).",
+    "picture": "https://wild31.com/img/spacewalk.png",
+    "repo": "https://github.com/WildCodeSchool/toulouse-0219-js-spacewalk",
+    "link": "",
+    "id": 77,
+    "slug": "spacewalk",
+    "date": "2019-05-03T13:32:51.356Z",
+    "wilders": [
+      {
+        "id": 43767765,
+        "login": "SandySanSan",
+        "promo": "0219-js",
+        "avatar": "https://avatars3.githubusercontent.com/u/43767765?v=4"
+      },
+      {
+        "id": 46028514,
+        "login": "Lea-jacta-est",
+        "promo": "0219-js",
+        "avatar": "https://avatars1.githubusercontent.com/u/46028514?v=4"
+      },
+      {
+        "id": 45945628,
+        "login": "D3N5",
+        "promo": "0219-js",
+        "avatar": "https://avatars3.githubusercontent.com/u/45945628?v=4"
+      }
+    ]
+  },
+  {
+    "title": "Play It Loud",
+    "type": "project2",
+    "promo": "0219-js",
+    "description": "Play It Loud est une application dédiée à la musique, avec un design inspiré de Netflix.\n\nS'appuyant sur l'API de Spotify, elle permet de consulter les sorties récentes, de rechercher des albums, de consulter des playlists, et de les ajouter à ses favoris. Ceux-ci sont même synchronisés avec le compte Spotify de l'utilisateur !\n\nEnfin, le player intégré permet d'écouter des extraits des morceaux.",
+    "picture": "https://wild31.com/img/playitloud.png",
+    "repo": "https://github.com/WildCodeSchool/toulouse-0219-js-playitloud",
+    "link": "",
+    "id": 78,
+    "slug": "play-it-loud",
+    "date": "2019-05-03T13:42:28.255Z",
+    "wilders": [
+      {
+        "id": 47633968,
+        "login": "xuysme",
+        "promo": "0219-js",
+        "avatar": "https://avatars2.githubusercontent.com/u/47633968?v=4"
+      },
+      {
+        "id": 46242288,
+        "login": "Towrowrow",
+        "promo": "0219-js",
+        "avatar": "https://avatars1.githubusercontent.com/u/46242288?v=4"
+      },
+      {
+        "id": 45638578,
+        "login": "sbaboot",
+        "promo": "0219-js",
+        "avatar": "https://avatars0.githubusercontent.com/u/45638578?v=4"
       }
     ]
   }
