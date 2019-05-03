@@ -352,16 +352,118 @@
     ]
   },
   {
+    "title": "Mel Retro Classic",
+    "type": "project1",
+    "promo": "1218-js",
+    "description": "Un projet dédié au \"rétro-gaming\", et aux consoles les plus emblématiques : PlayStation, NES, Nintendo 64.",
+    "picture": "https://wild31.com/img/mel-retro-classic.png",
+    "repo": "https://github.com/Luteces/MelRetroClassic",
+    "link": "",
+    "id": 69,
+    "slug": "mel-retro-classic",
+    "date": "2019-05-02T12:24:09.091Z",
+    "wilders": [
+      {
+        "id": 45876735,
+        "login": "NiiniieB",
+        "promo": "1218-js",
+        "avatar": "https://avatars3.githubusercontent.com/u/45876735?v=4"
+      },
+      {
+        "id": 45996191,
+        "login": "masta971",
+        "promo": "1218-js",
+        "avatar": "https://avatars3.githubusercontent.com/u/45996191?v=4"
+      },
+      {
+        "id": 37024001,
+        "login": "Luteces",
+        "promo": "1218-js",
+        "avatar": "https://avatars3.githubusercontent.com/u/37024001?v=4"
+      }
+    ]
+  },
+  {
+    "title": "Natharine Bonillio",
+    "type": "project1",
+    "promo": "1218-js",
+    "description": "Site vitrine pour une pâtissière professionnelle, présentant ses services et ses créations sucrées comme salées. De quoi mettre l'eau à la bouche !",
+    "picture": "https://wild31.com/img/natharine-bonillio.png",
+    "repo": "https://github.com/ArnaudMoya/ProjetPatisserie",
+    "link": "",
+    "id": 70,
+    "slug": "natharine-bonillio",
+    "date": "2019-05-02T12:30:52.603Z",
+    "wilders": [
+      {
+        "id": 44874070,
+        "login": "ArnaudMoya",
+        "promo": "1218-js",
+        "avatar": "https://avatars2.githubusercontent.com/u/44874070?v=4"
+      },
+      {
+        "id": 45764416,
+        "login": "Karyl1",
+        "promo": "1218-js",
+        "avatar": "https://avatars2.githubusercontent.com/u/45764416?v=4"
+      },
+      {
+        "id": 45852397,
+        "login": "Rom1Roux",
+        "promo": "1218-js",
+        "avatar": "https://avatars2.githubusercontent.com/u/45852397?v=4"
+      }
+    ]
+  },
+  {
+    "title": "Wild Eyes",
+    "type": "project1",
+    "promo": "0218-js",
+    "description": "Wild Eyes propose aux voyageurs des pages thématiques par pays. Idéal pour trouver votre prochaine destination !",
+    "picture": "https://wild31.com/img/wildeyes.png",
+    "repo": "https://github.com/WildCodeSchool/toulouse-0218-js-projet1-wildeye",
+    "link": "",
+    "id": 74,
+    "slug": "wild-eyes",
+    "date": "2019-05-02T14:08:25.987Z",
+    "wilders": [
+      {
+        "id": 36844655,
+        "login": "Vanthika",
+        "promo": "0218-js",
+        "avatar": "https://avatars0.githubusercontent.com/u/36844655?v=4"
+      },
+      {
+        "id": 29436891,
+        "login": "Yaefi",
+        "promo": "0218-js",
+        "avatar": "https://avatars1.githubusercontent.com/u/29436891?v=4"
+      },
+      {
+        "id": 36188457,
+        "login": "AirrV",
+        "promo": "0218-js",
+        "avatar": "https://avatars0.githubusercontent.com/u/36188457?v=4"
+      },
+      {
+        "id": 36265423,
+        "login": "florentinH",
+        "promo": "0218-js",
+        "avatar": "https://avatars0.githubusercontent.com/u/36265423?v=4"
+      }
+    ]
+  },
+  {
     "title": "Portfolio des anciens projets",
     "type": "project2",
     "promo": "0219-js",
-    "description": "Site référençant les différents projets réalisés par les wilders des différentes promotions de la Wild Toulouse",
+    "description": "Site portfolio de la Wild Toulouse référençant les différents projets des élèves des différentes sessions",
     "picture": "https://i.postimg.cc/Y0DFnyBc/Screenshot-from-2019-04-11-14-16-44.png",
     "repo": "https://github.com/WildCodeSchool/toulouse-0219-js-portfolio",
     "link": "",
-    "id": 58,
+    "id": 75,
     "slug": "portfolio-des-anciens-projets",
-    "date": "2019-04-17T07:05:34.646Z",
+    "date": "2019-05-02T16:56:20.320Z",
     "wilders": [
       {
         "id": 47557080,
