@@ -122,6 +122,24 @@ app.get('/api/promos', (req, res) => {
   return res.json(promos);
 });
 
+const getProjectWeight = project => {
+  const { type } = project;
+  const typeRe = /project(\d)/;
+  const matches = type.match(typeRe);
+  // hackathon
+  if (!matches) {
+    return 3;
+  }
+  const projectNum = Number(matches[1]);
+  return projectNum === 3 ? 4 : projectNum;
+};
+
+const sortProjects = (p1, p2) => {
+  const w1 = getProjectWeight(p1);
+  const w2 = getProjectWeight(p2);
+  return w1 - w2;
+}
+
 app.post('/api/projects', async (req, res) => {
   try {
     const errors = [];
@@ -158,7 +176,7 @@ app.post('/api/projects', async (req, res) => {
     const newProject = { ...req.body, id: nextProjectId, slug, date, wilders };
     nextProjectId += 1;
     allProjects.push(newProject);
-    allProjects.sort(sortPromos('promo', true));
+    allProjects.sort(sortPromos('promo', true, sortProjects));
 
     fs.writeFile('portfolio-projects-db.json', JSON.stringify(allProjects, null, 2), (err) => {
       if (err) return res.status(500).json({ errors: [err.message] });
