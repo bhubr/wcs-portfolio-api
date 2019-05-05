@@ -137,7 +137,7 @@ const getProjectWeight = project => {
 const sortProjects = (p1, p2) => {
   const w1 = getProjectWeight(p1);
   const w2 = getProjectWeight(p2);
-  return w1 - w2;
+  return w2 - w1;
 }
 
 app.post('/api/projects', async (req, res) => {
